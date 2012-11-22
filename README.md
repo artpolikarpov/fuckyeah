@@ -25,7 +25,7 @@ This is best jQuery plugin ever. Take a look:
 
 ```javascript
 $(function () {
-  // All you jQuery is now awesome
+  // All you jQuery code is now awesome
 }).fuckYeah();
 ```
 
@@ -55,5 +55,5 @@ jQuery (1.0+) is required.
 Copyright (c) 2012 Artem Polikarpov
 Licensed under the MIT License.
 
-### &lt;br>
+### <br>&lt;br>
 Looking forward for your pull requests with more live examples ;-)
