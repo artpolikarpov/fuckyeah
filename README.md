@@ -49,9 +49,11 @@ var $more = $('.more');
 $more[$more.is(':visible') ? 'fadeTo' : 'noop'](333, 0).fuckYeah();
 ```
 
+jQuery (1.0+) is required.
+
 ## License
 Copyright (c) 2012 Artem Polikarpov
-Licensed under the MIT, GPL licenses.
+Licensed under the MIT License.
 
-###
+### ...
 Looking forward for your pull requests with more live examples ;-)
