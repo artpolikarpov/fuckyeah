@@ -23,25 +23,35 @@ jQuery(function($) {
 
 This is best jQuery plugin ever. Take a look:
 
-    $(function () {
-      // All you jQuery is now awesome
-    }).fuckYeah();
+```javascript
+$(function () {
+  // All you jQuery is now awesome
+}).fuckYeah();
+```
 
 You can boost awesomeness and use <tt>fuckYeah()</tt> on every line if you like:
 
-    $('#sexy').slideDown('slow').fuckYeah();
+```javascript
+$('#sexy').slideDown('slow').fuckYeah();
 
-    $('#sort-button').on('click', function () {
-      sortState = !sortState;
-      toggleSort();
-    }).fuckYeah();
+$('#sort-button').on('click', function () {
+  sortState = !sortState;
+  toggleSort();
+}).fuckYeah();
+```
 
 Write your own aliases and get profit. But do not forget <tt>fuckYeah()</tt>:
 
-    $.fn.noop = $.fn.fuckyeah;
+```javascript
+$.fn.noop = $.fn.fuckyeah;
 
-    var $more = $('.more');
-    $more[$more.is(':visible') ? 'fadeTo' : 'noop'](333, 0).fuckYeah();
+var $more = $('.more');
+$more[$more.is(':visible') ? 'fadeTo' : 'noop'](333, 0).fuckYeah();
+```
 
+## License
+Copyright (c) 2012 Artem Polikarpov
+Licensed under the MIT, GPL licenses.
 
+###
 Looking forward for your pull requests with more live examples ;-)
