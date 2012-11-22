@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FuckYeah assertion</title>
+  <script src=jquery-1.8.3.min.js></script>
+  <script src=../fuckyeah.jquery.min.js></script>
+
+  <script>
+    (function () {
+      var readyFn = $(function () {
+        var $sexy = $('#sexy'),
+            sexySlowDown = $sexy.slideDown('slow').fuckYeah();
+
+        var $button = $('#sort-letters'),
+            $letters = $('#letters'),
+            $letter = $('li', $letters),
+            sortLetters = function () {
+              return $letter = $letter.sort(function (a, b) {
+                if (typeof sortState === 'undefined') return;
+                return ($(a).text().charCodeAt(0) - $(b).text().charCodeAt(0)) * (sortState ? 1 : -1);
+              }).appendTo($letters).fuckYeah();
+            },
+            sortState,
+            buttonClick = $button.on('click', function () {
+              sortState = !sortState;
+              sortLetters();
+            }).fuckYeah();
+
+        console.assert(
+            sexySlowDown === $sexy
+            && sortLetters() === $letter
+            && buttonClick === $button, 'Chaining');
+      }).fuckYeah();
+
+      console.assert(readyFn[0] === document, 'DOM-ready wrapper');
+    })();
+  </script>
+
+  <style>
+    ul { overflow: hidden; }
+    ul > li { float: left; list-style: none; margin-right: .5em; }
+  </style>
+
+</head>
+<body>
+
+<div id="sexy" style="display: none;"><tt>&lt;div id="sexy">&lt;/div></tt></div>
+
+<h1>FuckYeah assertion</h1>
+
+<p>If something wrong with FuckYeah plugin console throws «Assertion failed».</p>
+
+<br>
+
+<p><button id="sort-letters">Sort the letters</button></p>
+<ul id="letters">
+  <li>Q</li>
+  <li>W</li>
+  <li>E</li>
+  <li>R</li>
+  <li>T</li>
+  <li>Y</li>
+  <li>U</li>
+  <li>I</li>
+  <li>O</li>
+  <li>P</li>
+  <li>A</li>
+  <li>S</li>
+  <li>D</li>
+  <li>F</li>
+  <li>G</li>
+  <li>H</li>
+  <li>J</li>
+  <li>K</li>
+  <li>L</li>
+  <li>Z</li>
+  <li>X</li>
+  <li>C</li>
+  <li>V</li>
+  <li>B</li>
+  <li>N</li>
+  <li>M</li>
+</ul>
+
+<br><br>
+
+<p>***<br>Looking forward for your pull requests with more live examples and hard assertions ;-)</p>
+
+</body>
+</html>
