@@ -55,5 +55,5 @@ jQuery (1.0+) is required.
 Copyright (c) 2012 Artem Polikarpov
 Licensed under the MIT License.
 
-### <br>
+### &lt;br>
 Looking forward for your pull requests with more live examples ;-)
