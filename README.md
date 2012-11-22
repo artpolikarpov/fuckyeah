@@ -15,9 +15,7 @@ In your web page:
 <script src="jquery.js"></script>
 <script src="fuckyeah.jquery.min.js"></script>
 <script>
-jQuery(function($) {
-  $.fuckYeah();
-});
+  $.fuckYeah(); // Yeap!
 </script>
 ```
 ## Examples
