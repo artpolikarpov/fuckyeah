@@ -20,7 +20,7 @@ jQuery(function($) {
 });
 </script>
 ```
-
+## Examples
 This is best jQuery plugin ever. Take a look:
 
 ```javascript
@@ -55,5 +55,5 @@ jQuery (1.0+) is required.
 Copyright (c) 2012 Artem Polikarpov
 Licensed under the MIT License.
 
-### ...
+### <br>
 Looking forward for your pull requests with more live examples ;-)
