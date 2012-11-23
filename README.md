@@ -1,5 +1,5 @@
-FuckYeah
-========
+FuckYeah :+1:
+=============
 
 FuckYeah is a jQuery plugin that adds awesomeness to any jQuery code.
 
@@ -27,7 +27,7 @@ $(function () {
 }).fuckYeah();
 ```
 
-You can boost awesomeness and use <tt>fuckYeah()</tt> on every line if you like:
+You can boost awesomeness and use `fuckYeah()` on every line if you like:
 
 ```javascript
 $('#sexy').slideDown('slow').fuckYeah();
@@ -38,7 +38,7 @@ $('#sort-button').on('click', function () {
 }).fuckYeah();
 ```
 
-Write your own aliases and get profit. But do not forget <tt>fuckYeah()</tt>:
+Write your own aliases and get profit. But do not forget `fuckYeah()`:
 
 ```javascript
 $.fn.noop = $.fn.fuckyeah;
@@ -50,8 +50,9 @@ $more[$more.is(':visible') ? 'fadeTo' : 'noop'](333, 0).fuckYeah();
 jQuery (1.0+) is required.
 
 ## License
-Copyright (c) 2012 Artem Polikarpov
+Copyright © 2012 Artem Polikarpov
 Licensed under the MIT License.
 
-### <br>&lt;br>
+---
+
 Looking forward for your pull requests with more live examples ;-)
