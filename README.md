@@ -47,6 +47,14 @@ var $more = $('.more');
 $more[$more.is(':visible') ? 'fadeTo' : 'noop'](333, 0).fuckYeah();
 ```
 
+Even bad code can be improved by fuckYeah:
+
+```javascript
+$('.item .text .link a').click(function () {
+  var image = $($(this).parent().parent().parent().children()[0]).fuckYeah().html();
+});
+```
+
 jQuery (1.0+) is required.
 
 ## License
